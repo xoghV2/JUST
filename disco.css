@@ -1,19 +1,26 @@
 #wrap {
   width: 100%;
+}
+body {
   margin: 0;
+  padding: 0;
 }
 ul li {
   list-style: none;
 }
 ul li a {
-  color: hotpink;
+  color: white;
 }
 .navbar {
-  background-color: grey;
-  width: 300px;
-  height: 1000px;
-}
+  position: relative;
 
+  background-color: #4287f5;
+  width: 300px;
+  height: 1100px;
+}
+.navbar li {
+  padding: 6px;
+}
 .navbar li a {
   font-size: 26px;
 }
@@ -24,11 +31,32 @@ ul li a {
   max-height: 400px;
 }
 section {
-  display: absolute;
-  top: 500px;
-  right: 300px;
+  position: absolute;
+  top: 0;
+  left: 300px;
 }
 footer {
-  margin: 0;
-  background-color: grey;
+  position: relative;
+  top: 5px;
+  height: 250px;
+  margin-top: 0;
+  background-color: #4287f5;
+}
+footer h1 {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+footer h2 {
+  color: white;
+  text-align: center;
+}
+footer .footerbar_icons {
+  font-size: 50px;
+  text-align: center;
+}
+footer .footerbar_icons a {
+  color: white;
+}
+footer .footer_rights p {
 }
